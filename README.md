@@ -1,15 +1,15 @@
-# 2016 US Primary Election Results
+# Houston Meetup Data
 
 For this month's [data jam](http://www.meetup.com/Houston-Data-Visualization-Meetup/events/232548862/), we will be working with 2016 US primary election results.  This data is sourced from Kaggle.
 
-We have the data available in **csv**, **[feather](https://blog.rstudio.org/2016/03/29/feather/)**, and **[SQLite](https://en.wikipedia.org/wiki/SQLite)**, each in their respective directories.
+We have the data available in **csv**, each in their respective directories.
 
 ## Data
 
 The data are found in the following files:
 
-1. **groups.csv**: demographic data on counties from US census
-id	name	urlname	link	rating	created	description	organiserName	organiserMemberId
+1. **groups.csv**: groups.csv
+
   | Column    | Description                                |
   |----------:|--------------------------------------------|
   | id     | unique group id|
@@ -21,7 +21,7 @@ id	name	urlname	link	rating	created	description	organiserName	organiserMemberId
   | organizerName      | organizer's name |
   | organiserMemberID | organizer's unique member ID |
 
-1. **primary_results**: Each row contains the votes and fraction of votes that a candidate received in a given county's primary
+1. **members.csv**: members.csv
 
   | Column    | Description                                |
   |----------:|--------------------------------------------|
@@ -34,7 +34,7 @@ id	name	urlname	link	rating	created	description	organiserName	organiserMemberId
   | votes     | number of votes the candidate received in the corresponding state and county (may be missing) |
   | fraction_votes | fraction of votes the president received in the corresponding state, county, and primary |
 
-1. **primary_schedule**: Each row contains the schedule and type of the primary election by state and party
+1. **venues.csv**: Each row contains the schedule and type of the primary election by state and party
 
   | Column | Description                                |
   | ------:| ------------------------------------------ |
