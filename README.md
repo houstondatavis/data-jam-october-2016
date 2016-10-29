@@ -43,7 +43,6 @@ The data are found in the following files:
   | lat   | latitude                              |
   | lon   | longitude                              |
 
-**county_shapefiles**: directory containing county shapefiles at three different resolutions for mapping
 
 ## Sources
 - [micahstubbs/modeling-worked-example](https://github.com/micahstubbs/modeling-worked-example)
