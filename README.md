@@ -25,11 +25,11 @@ The data are found in the following files:
 
   | Column | Description                                |
   | ------:| ------------------------------------------ |
-  | id   | date when the primary of caucus was held   |
-  | name  | state where the primary or caucus was held |
-  | joined  | political party                            |
-  | topics  | state where the primary or caucus was held |
-  | groupId  | political party                            |
+  | id   | unique member id |
+  | name  | group name |
+  | joined  | date member joined the group |
+  | topics  | topics of interest set by member |
+  | groupId  | unique group id (matches group ids in `groups.csv`)                            |
 
 1. **venues.csv**: Each row contains the schedule and type of the primary election by state and party
 
