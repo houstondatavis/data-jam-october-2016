@@ -27,7 +27,7 @@ The data are found in the following files:
   | ------:| ------------------------------------------ |
   | id   | unique member id |
   | name  | group name |
-  | joined  | date member joined the group |
+  | joined  | date member joined the group (in milliseconds from epoch)|
   | topics  | topics of interest set by member |
   | groupId  | unique group id (matches group ids in `groups.csv`)                            |
 
@@ -35,15 +35,13 @@ The data are found in the following files:
 
   | Column | Description                                |
   | ------:| ------------------------------------------ |
-  | id   | date when the primary of caucus was held   |
-  | name  | state where the primary or caucus was held |
-  | city  | political party                            |
-  | address_1   | election type                              |
-  | address_2  | political party                            |
-  | lat   | election type                              |
-  | lon   | election type                              |
-
-Additionally, we have each county's shapefiles
+  | id   | unique venue id |
+  | name  | venue id |
+  | city  | city venue is located in |
+  | address_1   | address line 1 for venue |
+  | address_2  | address line 2 for venue |
+  | lat   | latitude                              |
+  | lon   | longitude                              |
 
 **county_shapefiles**: directory containing county shapefiles at three different resolutions for mapping
 
