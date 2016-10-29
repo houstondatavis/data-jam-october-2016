@@ -1,6 +1,6 @@
 # Houston Meetup Data
 
-For this month's [data jam](http://www.meetup.com/Houston-Data-Visualization-Meetup/events/232548862/), we will be working with 2016 US primary election results.  This data is sourced from Kaggle.
+For this month's [data jam](https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233079777/), we will be working with Meetup data from the Houston area.  This data is sourced from Meetup's API.
 
 We have the data available in **csv**, each in their respective directories.
 
@@ -32,8 +32,6 @@ The data are found in the following files:
   | groupId  | unique group id (matches group ids in `groups.csv`)                            |
 
 1. **venues.csv**: Each row contains the schedule and type of the primary election by state and party
-
-id	name	city	address_1	address_2	lat	lon
 
   | Column | Description                                |
   | ------:| ------------------------------------------ |
