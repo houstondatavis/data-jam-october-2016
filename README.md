@@ -8,7 +8,7 @@ We have the data available in **csv**, each in their respective directories.
 
 The data are found in the following files:
 
-1. **groups.csv**: groups.csv
+1. **groups.csv**: groups.csv -- Unique entry for every group
 
   | Column    | Description                                |
   |----------:|--------------------------------------------|
@@ -21,18 +21,15 @@ The data are found in the following files:
   | organizerName      | organizer's name |
   | organiserMemberID | organizer's unique member ID |
 
-1. **members.csv**: members.csv
+1. **members.csv**: members.csv -- One entry for every member-group pair
 
-  | Column    | Description                                |
-  |----------:|--------------------------------------------|
-  | state     | state where the primary or caucus was held |
-  | state_abbreviation | two letter state abbreviation     |
-  | county    | county where the results come from         |
-  | fips      | [FIPS county code](https://en.wikipedia.org/wiki/FIPS_county_code) |
-  | party     | Democrat or Republican                     |
-  | candidate | name of the candidate                      |
-  | votes     | number of votes the candidate received in the corresponding state and county (may be missing) |
-  | fraction_votes | fraction of votes the president received in the corresponding state, county, and primary |
+  | Column | Description                                |
+  | ------:| ------------------------------------------ |
+  | id   | date when the primary of caucus was held   |
+  | name  | state where the primary or caucus was held |
+  | joined  | political party                            |
+  | topics  | state where the primary or caucus was held |
+  | groupId  | political party                            |
 
 1. **venues.csv**: Each row contains the schedule and type of the primary election by state and party
 
