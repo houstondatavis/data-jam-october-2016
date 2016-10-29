@@ -33,12 +33,17 @@ The data are found in the following files:
 
 1. **venues.csv**: Each row contains the schedule and type of the primary election by state and party
 
+id	name	city	address_1	address_2	lat	lon
+
   | Column | Description                                |
   | ------:| ------------------------------------------ |
-  | date   | date when the primary of caucus was held   |
-  | state  | state where the primary or caucus was held |
-  | party  | political party                            |
-  | type   | election type                              |
+  | id   | date when the primary of caucus was held   |
+  | name  | state where the primary or caucus was held |
+  | city  | political party                            |
+  | address_1   | election type                              |
+  | address_2  | political party                            |
+  | lat   | election type                              |
+  | lon   | election type                              |
 
 Additionally, we have each county's shapefiles
 
