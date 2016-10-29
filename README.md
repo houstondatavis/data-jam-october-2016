@@ -27,7 +27,7 @@ The data are found in the following files:
   | ------:| ------------------------------------------ |
   | id   | unique member id |
   | name  | group name |
-  | joined  | date member joined the group (in milliseconds from epoch)|
+  | joined  | date member joined the group [in milliseconds from epoch](https://currentmillis.com/)|
   | topics  | topics of interest set by member |
   | groupId  | unique group id (matches group ids in `groups.csv`)                            |
 
